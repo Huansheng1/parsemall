@@ -53,7 +53,7 @@ npm run build
 ---> 生产发布后的静态网站文件，放在服务器里
 
 #### public
----> 任何放置在 public 文件夹的静态资源都会被简单的复制，而不经过 webpack。你需要通过绝对路径来引用它们
+---> 任何放置在 public 文件夹的静态资源都会被简单的复制，而不经过 webpack。你需要通过绝对路径来引用它们    
 ---->推荐：[vue-cli 3.0静态资源路径问题：何时使用 public 文件夹](https://blog.csdn.net/qappleh/article/details/103005111?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3)
 
 #### asset
