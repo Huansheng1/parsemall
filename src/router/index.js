@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-
+// 懒加载导入视图组件
 const Home = () => import('views/home/Home')
 const Category = () => import('views/category/Category')
 const Cart = () => import('views/cart/Cart')
