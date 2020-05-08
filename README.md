@@ -44,23 +44,37 @@ npm run build
 #### node_modules文件夹
 --->node模块和环境，不需要上传，npm install可自动根据 根目录的配置文件：package.json ，自动下载相关模块
 
-#### dist文件夹
+#### dist文件夹 ---> 生产发布后的静态网站文件，放在服务器里
 ##### css文件夹：存放css样式
 ##### img文件夹：存放图片资源
 ##### js文件夹：存放JavaScript文件
 ##### index.html：网站首页HTML文件
 ##### logo.png：网站LOGO图标
----> 生产发布后的静态网站文件，放在服务器里
 
-#### public文件夹
+#### public文件夹 ---> 静态资源文件
 ---> 任何放置在 public 文件夹的静态资源都会被简单的复制，而不经过 webpack。你需要通过绝对路径来引用它们    
+>├── favicon.ico    // 标签图标
+ └── index.html     // 当前项目唯一的页面
 ---->推荐：[vue-cli 3.0静态资源路径问题：何时使用 public 文件夹](https://blog.csdn.net/qappleh/article/details/103005111?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3)
+ 
 
+### src文件夹 ---> 开发源代码目录
 #### asset文件夹
+>  存放静态资源img、css、js
+   ├── img     // 图片文件夹
+   ├── css          // 样式css文件夹
+   ├── js          // 脚本JavaScript文件夹
 ---> asset 目录下的会经过 webpack 的 解析，好处是
-> 脚本和样式表会被压缩且打包在一起，从而避免额外的网络请求。
-> 文件丢失会直接在编译时报错，而不是到了用户端才产生 404 错误。
-> 最终生成的文件名包含了内容哈希，因此你不必担心浏览器会缓存它们的老版本。
-public 目录提供的是一个应急手段，当你通过绝对路径引用它时，留意应用将会部署到哪里。
-
-### src文件夹
+> 脚本和样式表会被压缩且打包在一起，从而避免额外的网络请求。     
+> 文件丢失会直接在编译时报错，而不是到了用户端才产生 404 错误。    
+> 最终生成的文件名包含了内容哈希，因此你不必担心浏览器会缓存它们的老版本。    
+> public 目录提供的是一个应急手段，当你通过绝对路径引用它时，留意应用将会部署到哪里。   
+#### common文件夹：存放css样式
+#### views文件夹：存放图片资源
+#### components文件夹：存放JavaScript文件
+#### network文件夹：存放JavaScript文件
+#### router文件夹：存放JavaScript文件
+#### store文件夹：存放JavaScript文件
+#### App.vue：网站首页HTML文件
+#### main.js：网站LOGO图标
+-----------------
