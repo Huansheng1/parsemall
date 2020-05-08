@@ -1,5 +1,6 @@
 <template>
   <tab-bar>
+    <!-- 子标签栏通过插槽插入标签栏里，传递不同标签栏图标、文字、路由地址 -->
     <tab-bar-item link="/home">
       <img slot="icon" src="~assets/img/tabbar/home.svg" alt="">
       <img slot="active-icon" src="~assets/img/tabbar/home_active.svg" alt="">
@@ -24,9 +25,10 @@
 </template>
 
   <script>
+  // 引入公共的标签栏组件
     import TabBar from 'common/tabbar/TabBar'
     import TabBarItem from 'common/tabbar/TabBarItem'
-
+// 主标签栏使用公共的标签组件
     export default {
       name: "MainTabBar",
       components: {
