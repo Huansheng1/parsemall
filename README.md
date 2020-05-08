@@ -45,11 +45,11 @@ npm run build
 --->node模块和环境，不需要上传，npm install可自动根据 根目录的配置文件：package.json ，自动下载相关模块
 
 #### dist
---css：存放css样式
---img：存放图片资源
---js：存放JavaScript文件
---index.html：网站首页HTML文件
---logo.png：网站LOGO图标
+##### css：存放css样式
+##### img：存放图片资源
+##### js：存放JavaScript文件
+##### index.html：网站首页HTML文件
+##### logo.png：网站LOGO图标
 ---> 生产发布后的静态网站文件，放在服务器里
 
 #### public
