@@ -75,21 +75,21 @@ npm run build
    ├── utils.js          // 工具类文件  
 #### views目录：存放页面(视图)组件  
 #####   ├── cart目录     // 购物车视图目录   
-|    |    ├── childComps目录         // 子视图目录  
+###### |    |    ├── childComps目录         // 子视图目录  
 |    |    |    ├── BottomBar.vue     
 |    |    |    ├── CartList.vue          
 |    |    |    ├── CartListItem.vue        
 |    |    |    └── CheckButton.vue        
 |    |    └── Cart.vue         
 #####   ├── category目录          // 分类视图目录    
-|    |    ├── childComps目录         // 子视图目录  
+###### |    |    ├── childComps目录         // 子视图目录  
 |    |    |    ├── TabContent.vue     
 |    |    |    ├── TabContentCategory.vue          
 |    |    |    ├── TabContentDetail.vue       
 |    |    |    └── TabMenu.vue        
 |    |    └── Category.vue          
 #####   ├── detail目录          // 详情视图目录     
-|    |    ├── childComps目录         // 子视图目录  
+###### |    |    ├── childComps目录         // 子视图目录  
 |    |    |    ├── DetailBaseInfo.vue     
 |    |    |    ├── DetailBottomBar.vue          
 |    |    |    ├── DetailCommentInfo.vue       
@@ -101,7 +101,7 @@ npm run build
 |    |    |    └── DetailSwiper.vue           
 |    |    └── Detail.vue         
 #####   ├── home目录          // 主页视图目录       
-|    |    ├── childComps目录         // 子视图目录    
+###### |    |    ├── childComps目录         // 子视图目录    
 |    |    |    ├── FeatureView.vue          
 |    |    |    ├── GoodsList.vue        
 |    |    |    ├── GoodsListItem.vue                  
@@ -109,34 +109,34 @@ npm run build
 |    |    |    └── RecommendView.vue           
 |    |    └── Home.vue         
    └── profile目录          // 用户档案视图目录         
-|    |    ├── childComps目录         // 子视图目录                    
+###### |    |    ├── childComps目录         // 子视图目录                    
 |    |    |    ├── ListView.vue                 
 |    |    |    └── UserInfo.vue           
 |    |    └── Profile.vue         
 #### components目录：存放公共可复用组件文件  
 #####   ├── common目录     // 可在其他项目复用的组件        
-|    |    ├── gridView目录         // 网格视图组件目录         
+###### |    |    ├── gridView目录         // 网格视图组件目录         
 |    |    |    └── GridView.vue                  
-|    |    ├── navbar目录         // 导航栏目组件录          
+###### |    |    ├── navbar目录         // 导航栏目组件录          
 |    |    |    └── NavBar.vue                     
-|    |    ├── scroll目录         // 滚动组件目录           
+###### |    |    ├── scroll目录         // 滚动组件目录           
 |    |    |    └── Scroll.vue                    
-|    |    ├── swiper目录         // 组件目录      
+###### |    |    ├── swiper目录         // 组件目录      
 |    |    |    ├── index.js          // 脚本文件（入口）           
 |    |    |    ├── Swiper.vue                       
 |    |    |    └── SwiperItem.vue                     
-|    |    └── tabbar目录         // 可复用的标签栏组件目录       
+###### |    |    └── tabbar目录         // 可复用的标签栏组件目录       
 |    |    |    ├── TabBar.vue    // 可复用的标签组件目录              
 |    |    |    └── TabBarItem.vue  // 可复用的标签子组件目录             
 #####   └── content目录     // 本项目可复用组件        
-######|    |    ├── backTop目录         // 返回顶部组件目录          
+###### |    |    ├── backTop目录         // 返回顶部组件目录          
 |    |    |    └── BackTop.vue                    
-|    |    ├── Icon目录         // 图标组件目录            
+###### |    |    ├── Icon目录         // 图标组件目录            
 |    |    |    ├── Icon.vue                 
 |    |    |    └── svg.vue                         
-|    |    ├── mainTabbar目录         // 主标签栏组件目录            
+###### |    |    ├── mainTabbar目录         // 主标签栏组件目录            
 |    |    |    └── MainTabBar.vue   // 主标签栏组件，使用了common目录/tabbar目录的标签组件               
-|    |    └── tabControl目录         // 标签控制组件目录           
+###### |    |    └── tabControl目录         // 标签控制组件目录           
 |    |    |    └── TabControl.vue             
 #### network目录：存放JavaScript文件  
    ├── axios.js     // axios模块封装的网络请求脚本文件  
