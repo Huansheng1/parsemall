@@ -129,7 +129,7 @@ npm run build
 |    |    |    ├── TabBar.vue    // 可复用的标签组件目录              
 |    |    |    └── TabBarItem.vue  // 可复用的标签子组件目录             
 #####   └── content目录     // 本项目可复用组件        
-|    |    ├── backTop目录         // 返回顶部组件目录          
+######|    |    ├── backTop目录         // 返回顶部组件目录          
 |    |    |    └── BackTop.vue                    
 |    |    ├── Icon目录         // 图标组件目录            
 |    |    |    ├── Icon.vue                 
