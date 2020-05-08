@@ -15,7 +15,7 @@ npm run serve
 npm run build
 ```
 
-### 目录结构解析
+## 目录结构解析
 ![Image text](https://img-blog.csdnimg.cn/201911110928223.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FhcHBsZWg=,size_16,color_FFFFFF,t_70)
 #### .browserslistrc文件
 --->浏览器兼容配置
