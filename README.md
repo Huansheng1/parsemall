@@ -52,18 +52,18 @@ npm run build
 ##### logo.png：网站LOGO图标
 
 #### public文件夹 ---> 静态资源文件
----> 任何放置在 public 文件夹的静态资源都会被简单的复制，而不经过 webpack。你需要通过绝对路径来引用它们    
->├── favicon.ico    // 标签图标
- └── index.html     // 当前项目唯一的页面
+---> 任何放置在 public 文件夹的静态资源都会被简单的复制，而不经过 webpack。你需要通过绝对路径来引用它们     
+>├── favicon.ico    // 标签图标  
+ └── index.html     // 当前项目唯一的页面  
 ---->推荐：[vue-cli 3.0静态资源路径问题：何时使用 public 文件夹](https://blog.csdn.net/qappleh/article/details/103005111?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromBaidu-3)
  
 
 ### src文件夹 ---> 开发源代码目录
 #### asset文件夹
->  存放静态资源img、css、js
-   ├── img     // 图片文件夹
-   ├── css          // 样式css文件夹
-   ├── js          // 脚本JavaScript文件夹
+>  存放静态资源img、css、js  
+   ├── img     // 图片文件夹  
+   ├── css          // 样式css文件夹  
+   ├── js          // 脚本JavaScript文件夹  
 ---> asset 目录下的会经过 webpack 的 解析，好处是
 > 脚本和样式表会被压缩且打包在一起，从而避免额外的网络请求。     
 > 文件丢失会直接在编译时报错，而不是到了用户端才产生 404 错误。    
